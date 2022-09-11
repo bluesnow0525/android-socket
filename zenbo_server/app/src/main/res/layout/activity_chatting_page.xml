@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChattingPage">
+
+
+
+    <TextView
+        android:id="@+id/tv_chatting_page_welcome_msg"
+        android:layout_width="246dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="577dp"
+        android:text="Hi!"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/lv_chatting_page_member_block"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="467dp" />
+
+    <ListView
+        android:id="@+id/lv_chatting_page_receive_block"
+        android:layout_width="342dp"
+        android:layout_height="361dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="88dp" />
+
+    <EditText
+        android:id="@+id/et_chatting_page_sending_msg"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="18dp"
+        android:hint="Say something..."
+        android:text=""
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_chatting_page_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="277dp"
+        android:layout_marginBottom="21dp"
+        android:text="Send"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_chatting_page_btn_leave"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="271dp"
+        android:layout_marginBottom="584dp"
+        android:text="Leave"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
